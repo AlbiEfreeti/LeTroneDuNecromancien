@@ -1,0 +1,102 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# =========================
+# Build / Distribution
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+
+# =========================
+# Compiled / Binary Files
+# =========================
+
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.o
+*.obj
+*.a
+*.lib
+*.class
+
+
+# =========================
+# Game Engine / Generated
+# =========================
+
+# Logs
+*.log
+
+# Crash dumps
+*.dmp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+*.code-workspace
+
+
+# =========================
+# Operating System
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# =========================
+# Archives
+# =========================
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example

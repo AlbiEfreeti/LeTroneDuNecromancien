@@ -1,0 +1,7 @@
+id,name,effect,damage,mana,animation_id
+1,Summoning,Summons necromancer army unit toggling between units,0,25,a01
+2,Void Shields,Shields player for three seconds,0,18,a02
+3,Void Shields,Shields player for three seconds,0,18,a02
+4,Void Shields,Shields player for three seconds,0,18,a02
+5,Void Shields,Shields player for three seconds,0,18,a02
+6,Void Dagger,Sends daggers to deal magical attack damage,8,15,a06

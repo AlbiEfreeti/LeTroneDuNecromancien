@@ -1,0 +1,27 @@
+Shadow Extraction: Extracts shadows from deceased bodies to add to his army.
+Shadow Preservation: Stores extracted shadows in his shadow inventory.
+Shadow Exchange: Allows teleportation to any stored shadow.
+Shadow Creation: Instantly creates shadows.
+Stealth: Becomes invisible and silent.
+Bloodlust: Intimidates enemies, reducing their stats by 
+
+.
+Quicksilver: Increases speed by 
+
+.
+Dagger Rush / Mutilation: Rapid dagger attacks on targets.
+Ruler’s Authority: Telekinetic control over objects.
+Spiritual Body Manifestation: Transforms into a spiritual form (full Monarch power).
+Stage of the Lonely God: Enhances power when fighting alone. 
+
+Passive Skills & Boosts
+Longevity: Immunity to diseases, poisons, and debuffs.
+Detoxification: Purges poisons and prevents alcohol intoxication.
+Tenacity: Reduces incoming damage by 
+
+ when health is low.
+Advanced Dagger Techniques: Increases damage dealt with daggers. 
+Other Notable Abilities
+Taunt: Forces enemies to attack the caster.
+Phantom Step: Quick movement that allows dodging.
+Titan's Strike: A powerful, force-infused physical blow. 
