@@ -20,4 +20,4 @@ whisper of a life that has almost escaped your memory, a hope to reclaim the sou
 
 ## Design
 
-<p align="center"> <img src="resources/images/player.png" alt="The necromancer design in his full power. First attempt 2026" width="200"> </p>
+<p align="center"> <img src="resources/images/player.png" alt="The necromancer design in his full power. First attempt 2026" width="400"> </p>
