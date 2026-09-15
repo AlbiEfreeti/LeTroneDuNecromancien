@@ -7,6 +7,7 @@ from systems.settings import open_settings
 import csv
 import os
 
+
 app = Ursina()
 
 
@@ -202,34 +203,62 @@ def pause_game():
 
     continue_button = Button(
         text='Continue',
-        color=color.black,
+        texture='resources/images/buttons.png',
+        color=color.rgba(255, 255, 255, 0),
         scale=(0.3, 0.1),
         y=0
     )
 
-    quit_button = Button(
+    continue_button_background = Entity(
+                parent=camera.ui,
+                model='quad',
+                texture='resources/images/buttons.png',
+                scale=(0.3, 0.1),
+                )
+
+    quitpause_button = Button(
         text='Quit Game',
-        color=color.black,
+        texture='resources/images/buttons.png',
         scale=(0.3, 0.1),
+        color=color.rgba(255, 255, 255, 0),
         y=-0.3
     )
 
+    quitpause_button_background = Entity(
+                    parent=camera.ui,
+                    model='quad',
+                    texture='resources/images/buttons.png',
+                    scale=(0.3, 0.1),
+                    y=-0.3
+                    )
+
     main_menu_button = Button(
         text='Main Menu',
-        color=color.black,
         scale=(0.3, 0.1),
+        color=color.rgba(255, 255, 255, 0),
         y=-0.15
     )
 
+    main_menu_button_background = Entity(
+                        parent=camera.ui,
+                        model='quad',
+                        texture='resources/images/buttons.png',
+                        scale=(0.3, 0.1),
+                        y=-0.15
+                        )
+
     continue_button.on_click = continue_game
-    quit_button.on_click = quit_game
+    quitpause_button.on_click = quit_game
     main_menu_button.on_click = return_to_main_menu
 
     pause_menu_entities.extend([
         pause_title,
         continue_button,
-        quit_button,
-        main_menu_button
+        quitpause_button,
+        main_menu_button,
+        continue_button_background,
+        quitpause_button_background,
+        main_menu_button_background
     ])
 
 
@@ -325,27 +354,54 @@ def main_menu():
 
     start_button = Button(
     parent=camera.ui,
+    texture='resources/images/buttons.png',
     text='Start Game',
     scale=(0.25, 0.1),
-    color=color.black,
+    color=color.rgba(255, 255, 255, 0),
     position=(0, -0.39)
+    )
+
+    start_button_background = Entity(
+    parent=camera.ui,
+    model='quad',
+    texture='resources/images/buttons.png',
+    scale=(0.25, 0.1),
+    position=(0, -0.39),
     )
 
     settings_button = Button(
     parent=camera.ui,
+    texture='resources/images/buttons.png',
     text='Settings',
     scale=(0.25, 0.1),
-    color=color.black,
+    color=color.rgba(255, 255, 255, 0),
     position=(-0.35, -0.29)
     )
 
+    settings_button_background = Entity(
+        parent=camera.ui,
+        model='quad',
+        texture='resources/images/buttons.png',
+        scale=(0.25, 0.1),
+        position=(-0.35, -0.29)
+        )
+
     quit_button = Button(
         parent=camera.ui,
+        texture='resources/images/buttons.png',
         text='Quit Game',
         scale=(0.25, 0.1),
-        color=color.black,
+        color=color.rgba(255, 255, 255, 0),
         position=(0.35, -0.29)
     )
+
+    quit_button_background = Entity(
+            parent=camera.ui,
+            model='quad',
+            texture='resources/images/buttons.png',
+            scale=(0.25, 0.1),
+            position=(0.35, -0.29)
+            )
 
     playerIMG = Entity(
     parent=camera.ui,
@@ -372,7 +428,10 @@ def main_menu():
         start_button,
         quit_button,
         playerIMG,
-        settings_button
+        settings_button,
+        start_button_background,
+        quit_button_background,
+        settings_button_background
     ])
 
 
